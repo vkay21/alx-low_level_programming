@@ -1,8 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * add - add two numbers
+ * @n1: first number
+ * @n2: second number
  *
- * Return: Always 0.
+ * Return: sum of n1 and n2
  */
-int main(void)
+int add(int n1, int n2)
+{
+	return (n1 + n2);
+}
