@@ -1,10 +1,15 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _abs - print the absolute value of a number
+ * @num: the number to be checked
  *
- * Return: Always 0.
+ * Return: the absolute value of num
  */
-int main(void)
+int _abs(int num)
 {
-    int r;
+	if (num >= 0)
+		return (num);
+	else
+		return (-num);
+}
